@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  background-color: #fff;
+  color: #333;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+.container h1{
+  margin-bottom: 20px;
+}
+
+.card{
+  padding: 10px;
+  border: 1px solid #666666;
+  margin-bottom: 20px;
+}
+
+.buttons{
+  margin-top: 5px;
+}
+
+input{
+  display: block;
+  width: 100%;
+  padding: 6px 6px;
+  margin-bottom: 10px;
+}
+
+.btn{
+  padding: 8px 20px;
+  background-color: #333333;
+  color: white;
+  transition: 1s;
+  font-weight: bold;
+  border-radius: 16px;
+  border: none;
+}
+
+.btn:active{
+ background-color: #ffffff;
+  transition: 0.1s !important;
+}
+
+.btn + .btn{
+  margin-left: 8px;
+}
+
+.user{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn-danger{
+  color: #ffffff;
+  background-color: #ad4b4b;
+  border: none;
+  border-radius: 16px;
+  font-weight: bold;
+  padding: 8px 20px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.btn:disabled{
+  background-color: #ad4b4b;
+  color: #ffffff;
+  font-weight: bold;
+  opacity: 70%;
+}
+
+.user{
+  background: linear-gradient(to right, #F9BCAB, #A3E4F1);
+}
+
+
